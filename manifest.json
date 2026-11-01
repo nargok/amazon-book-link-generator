@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Book Link Copier",
+  "version": "1.0.0",
+  "description": "Amazon.co.jpの商品ページをObsidian用Markdownリンクとしてコピーします。",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Amazonの書籍リンクをコピー",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}

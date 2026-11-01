@@ -1,0 +1,17 @@
+{
+  "name": "amazon-book-link-copier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run typecheck && node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.254",
+    "@types/node": "20.19.22",
+    "esbuild": "0.21.5",
+    "typescript": "5.9.3"
+  }
+}
